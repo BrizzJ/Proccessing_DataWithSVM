@@ -99,7 +99,7 @@ These will all be saved under the folder svmOutput in the same directory.
 
 Basically all of the given output files are in .npy format, which are just a NumPy array of integers. The file predictionsReport.py which can be ran by the command:
 
-'python predictionsReport.py'
+`python predictionsReport.py`
 
 can be used **after** svm.py is ran and given output is correct. This will generate a .csv file that will be in the format Filename,PredictedClass. I.E. 00000.png,16.
 
