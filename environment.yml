@@ -1,0 +1,30 @@
+name: group2_env
+channels:
+  - defaults
+dependencies:
+  # Core Python and Conda packages
+  - python=3.13
+  - pip=25.2
+  - numpy=2.3.3
+  - pandas=2.3.2
+  - scipy=1.16.1
+  - scikit-learn=1.7.1
+  - scikit-image=1.0.0  # <-- Add this
+  - opencv=4.10.0
+  - joblib=1.5.2
+  - setuptools=72.1.0
+  - wheel=0.45.1
+
+  # Optional: multimedia or system libraries
+  - ffmpeg=6.1.1
+  - jpeg=9f
+  - libpng=1.6.39
+  - libtiff=4.7.0
+  - zlib=1.3.1
+
+  # Pip-only packages
+  - pip:
+      - pytesseract
+      - mysqlclient
+
+      
